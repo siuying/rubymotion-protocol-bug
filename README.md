@@ -1,4 +1,8 @@
-# A bug on RubyMotion related to Objective-C protocol and NSObject conformsToProtocol:
+# Bug Report
+
+This is a bug on RubyMotion related to Objective-C protocol and NSObject#conformsToProtocol:
+
+## Details
 
 I have a ruby class (which is a subclass of UIView) that implements all methods in a protocol. 
 
