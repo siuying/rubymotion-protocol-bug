@@ -11,7 +11,7 @@ Calling ```[object conformsToProtocol:@protocol(MyProtocol)]``` return false whi
 
 ## Example
 
-All three classes [MyImpl](https://github.com/siuying/rubymotion-protocol-bug/blob/master/vendor/objc/MyImpl.m), [UIViewSubclass](https://github.com/siuying/rubymotion-protocol-bug/blob/master/app/uiview_subclass.rb) and [ObjectSubclass](https://github.com/siuying/rubymotion-protocol-bug/blob/master/vendor/objc/MyProtocol.h) implements the protocol [MyProtocol](https://github.com/siuying/rubymotion-protocol-bug/blob/master/vendor/objc/MyProtocol.h).
+All three classes [MyImpl](https://github.com/siuying/rubymotion-protocol-bug/blob/master/vendor/objc/MyImpl.m), [UIViewSubclass](https://github.com/siuying/rubymotion-protocol-bug/blob/master/app/uiview_subclass.rb) and [ObjectSubclass](https://github.com/siuying/rubymotion-protocol-bug/blob/master/app/object_subclass.rb) implements the protocol [MyProtocol](https://github.com/siuying/rubymotion-protocol-bug/blob/master/vendor/objc/MyProtocol.h).
 
 ```ruby
 describe "Protocol test" do
