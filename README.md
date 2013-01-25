@@ -11,6 +11,8 @@ Calling ```[object conformsToProtocol:@protocol(MyProtocol)]``` return false whi
 
 ## Example
 
+All three classes MyImpl, UIViewSubclass and ObjectSubclass implements the protocol.
+
 ```ruby
 describe "Protocol test" do
   it "MyImpl should conforms to MyProtocol" do
@@ -32,6 +34,7 @@ end
 
 ## Result
 
+```
 Protocol test
   - MyImpl should conforms to MyProtocol
   - UIViewSubclass should conforms to MyProtocol [FAILED]
@@ -46,3 +49,5 @@ Bacon::Error: false.true?() failed
   spec.rb:294:in `run'
 
 3 specifications (3 requirements), 1 failures, 0 errors
+
+```
