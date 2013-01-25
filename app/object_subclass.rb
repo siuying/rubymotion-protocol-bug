@@ -1,11 +1,8 @@
 class ObjectSubclass < NSObject
   def reuseIdentifier
-    "RubyImpl"
+    "ObjectSubclass"
   end
 
   def prepareForReuse
-    self.subviews.each do |v|
-      v.removeFromSuperview
-    end
   end
 end
